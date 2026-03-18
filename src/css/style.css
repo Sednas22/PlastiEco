@@ -33,67 +33,18 @@ ul li {
     background-color: greenyellow !important;
 }
 
-.prod1 {
-    grid-area: prod1;
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 50px;
+    justify-content: center;
     text-align: center;
+    margin-top: 40px;
 }
 
-.prod2 {
-    grid-area: prod2;
-    text-align: center;
-}
-
-.prod3 {
-    grid-area: prod3;
-    text-align: center;
-}
-
-.prod4 {
-    grid-area: prod4;
-    text-align: center;
-}
-
-.prod5 {
-    grid-area: prod5;
-    text-align: center;
-}
-
-.prod6 {
-    grid-area: prod6;
-    text-align: center;
-}
-
-.prod7 {
-    grid-area: prod7;
-    text-align: center;
-}
-
-.prod8 {
-    grid-area: prod8;
-    text-align: center;
-}
-
-.prod9 {
-    grid-area: prod9;
-    text-align: center;
-}
-
-.prod1 img, .prod2 img, .prod3 img, .prod4 img, .prod5 img, .prod6 img, .prod7 img, .prod8 img, .prod9 img {
+.produtos .card img {
     height: 200px;
     object-fit: cover;
-}
-
-.produtos {
-    display:grid;
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas:
-    "prod1 prod2 prod3"
-    "prod4 prod5 prod6"
-    "prod7 prod8 prod9";
-    gap:50px;
-    justify-content:center;
-    margin-top:40px;
 }
 
 .card1 {
@@ -143,21 +94,6 @@ a {
   color: inherit;
 }
 
-#filtroCategoria li.ativo{
-    font-weight: bold;
-    color: green;
-    background:#e0ffe0;
-}
-
-#filtroCategoria li{
-    padding:6px;
-    border-radius:6px;
-}
-
-#filtroCategoria li:hover{
-    background:#e9e9e9;
-}
-
 .main-container {
     max-width: 900px;
     margin: auto;
@@ -173,30 +109,52 @@ a {
     margin-top: 30px;
 }
 
+.btn-detalhes {
+    margin-bottom: 5px;
+}
+
+.modal {
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog{
+    max-width: 500px;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-body img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.modal-body{
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+#filtroCategoria li.ativo {
+  font-weight: bold;
+  color: green;
+  cursor: pointer;
+}
+
 @media (max-width: 1200px){
     .produtos{
         grid-template-columns: repeat(2, 250px);
-        grid-template-areas:
-        "prod1 prod2"
-        "prod3 prod4"
-        "prod5 prod6"
-        "prod7 prod8"
-        "prod9 prod9";
     }
 }
 
 @media (max-width: 576px){
     .produtos{
         grid-template-columns: 1fr;
-        grid-template-areas:
-        "prod1"
-        "prod2"
-        "prod3"
-        "prod4"
-        "prod5"
-        "prod6"
-        "prod7"
-        "prod8"
-        "prod9";
     }
 }

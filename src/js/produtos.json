@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nome": "Camisa",
+    "nome_desc": "Camisa sustentável",
+    "preco": 189.90,
+    "categoria": "roupas",
+    "descricao": "Camisa confeccionada com tecido sustentável de fibras naturais, leve e respirável. Ideal para o uso diário, oferece conforto e durabilidade enquanto utiliza processos de produção com menor impacto ambiental.",
+    "imagem": "../assets/img/camisa.png"
+  },
+  {
+    "id": 2,
+    "nome": "Creme facial",
+    "nome_desc": "Creme facial natural",
+    "preco": 69.90,
+    "categoria": "beleza",
+    "descricao": "Creme facial hidratante formulado com ingredientes de origem natural. Sua composição ajuda a nutrir e proteger a pele no dia a dia, enquanto a embalagem reciclável reforça o compromisso da PlástiEco com práticas mais sustentáveis.",
+    "imagem": "../assets/img/creme.png"
+  },
+  {
+    "id": 3,
+    "nome": "Toalha de mesa",
+    "nome_desc": "Toalha de mesa sustentável",
+    "preco": 79.90,
+    "categoria": "casa",
+    "descricao": "Toalha de mesa produzida com tecido resistente e sustentável, ideal para compor ambientes modernos e naturais. Seu material foi desenvolvido para garantir durabilidade e fácil manutenção no uso cotidiano.",
+    "imagem": "../assets/img/toalha.png"
+  },
+  {
+    "id": 4,
+    "nome": "Banco artesanal",
+    "nome_desc": "Banco artesanal sustentável",
+    "preco": 179.90,
+    "categoria": "casa",
+    "descricao": "Banco artesanal produzido com fibras naturais trançadas, combinando design rústico e conforto. A estrutura resistente e o uso de materiais naturais tornam a peça ideal para compor ambientes sustentáveis e acolhedores.",
+    "imagem": "../assets/img/banco.png"
+  },
+  {
+    "id": 5,
+    "nome": "Calça",
+    "nome_desc": "Calça sustentável",
+    "preco": 119.90,
+    "categoria": "roupas",
+    "descricao": "Calça confeccionada com tecido sustentável de alta durabilidade, proporcionando conforto e liberdade de movimento. Seu processo de produção busca reduzir o impacto ambiental sem abrir mão da qualidade.",
+    "imagem": "../assets/img/calca.png"
+  },
+  {
+    "id": 6,
+    "nome": "Desodorante",
+    "nome_desc": "Desodorante natural",
+    "preco": 34.90,
+    "categoria": "beleza",
+    "descricao": "Desodorante natural desenvolvido com ingredientes suaves e de origem vegetal. Proporciona proteção contra odores enquanto respeita o equilíbrio da pele e utiliza embalagem reciclável.",
+    "imagem": "../assets/img/desoda.png"
+  },
+  {
+    "id": 7,
+    "nome": "Tênis",
+    "nome_desc": "Tênis sustentável",
+    "preco": 249.90,
+    "categoria": "roupas",
+    "descricao": "Tênis produzido com materiais reciclados e tecido respirável, proporcionando conforto e resistência para o uso diário. Seu design combina estilo moderno com uma proposta mais sustentável.",
+    "imagem": "../assets/img/tenis.png"
+  },
+  {
+    "id": 8,
+    "nome": "Bermuda",
+    "nome_desc": "Bermuda sustentável",
+    "preco": 139.90,
+    "categoria": "roupas",
+    "descricao": "Bermuda estilo jeans confeccionada com tecido resistente e confortável. Seu processo de produção prioriza técnicas que reduzem o consumo de água e promovem práticas mais sustentáveis na indústria têxtil.",
+    "imagem": "../assets/img/bermuda.png"
+  },
+  {
+    "id": 9,
+    "nome": "Vaso",
+    "nome_desc": "Vaso sustentável",
+    "preco": 59.90,
+    "categoria": "casa",
+    "descricao": "Vaso decorativo produzido com material reciclado, ideal para plantas ornamentais e decoração sustentável. Seu acabamento natural combina com diferentes estilos de ambiente, valorizando o design ecológico.",
+    "imagem": "../assets/img/vaso.png"
+  }
+]
