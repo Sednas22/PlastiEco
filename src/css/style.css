@@ -75,18 +75,22 @@ ul li {
 }
 
 #banner{
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
+    max-width: 100%;
 }
 
 .carousel-item img{
     height: 400px;
     object-fit: contain;
+    width: 100%;
+    max-height: 400px;
 }
 
 .carousel-item{
-    background:#222;
+    background: #0076c0;
+}
+
+main .text-center {
+    margin-top: 25px
 }
 
 a {
@@ -143,7 +147,7 @@ a {
 
 #filtroCategoria li.ativo {
   font-weight: bold;
-  color: green;
+  color: #198754;
   cursor: pointer;
 }
 
